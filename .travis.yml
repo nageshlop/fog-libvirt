@@ -28,6 +28,31 @@ matrix:
       gemfile: Gemfile
     - rvm: 2.6.0
       gemfile: Gemfile
+#ppc64le support code
+    - rvm: 2.0.0
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.1.0
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.1.1
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.2.0
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.3.1
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.4.5
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.5.3
+      arch: ppc64le
+      gemfile: Gemfile
+    - rvm: 2.6.0
+      arch: ppc64le
+      gemfile: Gemfile
 
 notifications:
   email: false
